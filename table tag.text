@@ -1,0 +1,10 @@
+===========table tag ============== 
+ 1>- <table> </table>      is ka nader table ka code hota hain
+ 2>- <tr> <tr/>            ye collam ke liye use hota hain
+ 3>- <td></td>             ye tabel ke data ko likhen ke liye use hota hain
+ 4>- <th></th>             ye data kpo bolt karne ke liye use hota hain
+ 5>- <capsion></capsion>   ye table ka capsion dene ke liye use hota hain
+
+===========table attributes==========
+1>-       colspan 
+2>-       rowspan
