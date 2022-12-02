@@ -1,0 +1,24 @@
+a{
+        
+    text-decoration:none;
+} 
+
+/* normal lik color */
+a:link{
+    color: yellowgreen;
+        font-size: 50px;
+}
+ /* visit karne ke baad link */
+a:visited{
+            color: black;
+}
+
+/* karsal le kar jaate hain jab color change ho jata hain */
+a:hover{
+        color: red;
+}
+
+/* jab link ko clik kar de  te hain  */
+a:active{
+        color:blue;
+}

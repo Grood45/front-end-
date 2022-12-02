@@ -1,0 +1,70 @@
+/* normal background in css */
+
+*{
+    margin: 2px;
+    padding: 10px;
+    
+}
+
+.div1{
+    background-image: url(bgim1.jpg);
+    border: solid;
+    height: 250px;
+
+}
+
+        
+        
+        
+
+
+/* image no-repeted*/
+.div2 {
+        background-image: url(bgim1.jpg);
+        border: solid;
+        height: 350px;
+        background-repeat: no-repeat;
+
+}
+
+/* image repeted-x */
+.div3{
+        background-image: url(bgim1.jpg);
+        border: solid;
+        height: 350px;
+        background-repeat: repeat-x;
+        
+}
+
+
+/* image repeted-y */
+.div4{
+    background-image: url(bgim1.jpg);
+    border: solid;
+    height: 450px;
+    background-repeat: repeat-y;
+    
+}
+
+/* image repeted-space */
+.div5{
+    background-image: url(bgim1.jpg);
+    border: solid;
+    height: 450px;
+    
+    background-repeat: space;
+    
+}
+
+
+/* image repeted-unset */
+.div6{
+    background-image: url(bgim1.jpg);
+    border: solid;
+    height: 450px;
+    background-repeat: unset;
+    
+}
+
+
+

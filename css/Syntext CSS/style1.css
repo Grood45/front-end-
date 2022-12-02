@@ -1,0 +1,76 @@
+/*  start element selector*/
+
+div{
+    color: blue;
+    border: solid;
+    border-radius: 12px 12px 12px 12px;
+    background-color: chartreuse;
+    font-size: xx-large;
+    text-align: center;
+}
+/*  end element selector*/
+
+/*  start id selector*/
+
+#id-h1{
+    color: blue;
+    border: solid;
+    border-radius: 12px 12px 12px 12px;
+    font-size:78px;
+}
+
+#id-p{
+    color: rgb(9, 255, 0);
+    border: solid;
+    border-radius: 12px 12px 12px 12px;
+    font-size: xx-large;
+}
+/*  end id selector*/
+
+/*  start class selector*/
+.class-sel {
+    color: #000;
+    background: #fff;
+    border: solid;
+    border-radius: 12px 12px 12px 12px;
+    font-size:25px;
+}
+.i {
+    color: #000;
+    background: #fff;
+    border: solid;
+    border-radius: 12px 12px 12px 12px;
+    font-size:15px;
+}
+.p2{
+    color: #000;
+    background: #fff;
+    border: solid;
+    border-radius: 12px 12px 12px 12px;
+    font-size:15px;
+}
+
+/*  end class selector*/
+
+/*  Start group selector*/
+u,mark,b{
+    border: outset;
+    margin-left:70px;
+    margin-right: 60px;
+    border-radius: 13px 13px 13px 13px;
+    border-color: blue;
+    border-width: 5px;
+    background-color: aqua;
+    text-align: center;
+   
+}
+button{
+         color:red;
+         border: solid;
+         border-radius: 10px 10px 10px 10px;
+         box-decoration-break: slice;
+         box-shadow: aqua 15px;
+}
+
+
+/*  Start group selector*/

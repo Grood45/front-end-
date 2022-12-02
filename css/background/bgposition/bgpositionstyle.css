@@ -1,0 +1,69 @@
+*{
+    height: 645px;
+    width: auto;
+    margin: 23px;
+}
+
+/* background  top  defoult vlue is center*/
+
+.posi1{
+    background-color: rgb(230, 203, 203);
+    background-image: url(posi1.jpg);
+    background-repeat: no-repeat;
+    background-size: 224px 334px;
+    background-position:top ;
+
+    color: rgb(248, 248, 248);
+    border: solid rgb(17, 17, 17);
+}
+/* background left */
+
+.posi2{
+    background-color: rgb(230, 203, 203);
+    background-image: url(posi1.jpg);
+    background-repeat: no-repeat;
+    background-size: 224px 334px;
+    background-position:left ;
+
+    color: rgb(248, 248, 248);
+    border: solid rgb(17, 17, 17);
+}
+
+
+/* background rigth */
+
+.posi3{
+    background-color: rgb(230, 203, 203);
+    background-image: url(posi1.jpg);
+    background-repeat: no-repeat;
+    background-size: 224px 334px;
+    background-position: right ;
+
+    color: rgb(248, 248, 248);
+    border: solid rgb(17, 17, 17);
+}
+
+/* background center */
+
+.posi4{
+    background-color: rgb(230, 203, 203);
+    background-image: url(posi1.jpg);
+    background-repeat: no-repeat;
+    background-size: 224px 334px;
+    background-position:center ;
+
+    color: rgb(248, 248, 248);
+    border: solid rgb(17, 17, 17);
+}
+
+/* background  bottom  defoult vlue is center*/
+
+.posi5{
+    background-color: rgb(230, 203, 203);
+    background-image: url(posi1.jpg);
+    background-repeat: no-repeat;
+    background-size: 224px 334px;
+    background-position:bottom 3px right 5px ;
+    color: rgb(248, 248, 248);
+    border: solid rgb(17, 17, 17);
+}

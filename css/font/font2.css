@@ -1,0 +1,13 @@
+@font-face{
+    font-family: one;
+    src:url("font1/PantonRustHeavy-GrSh.otf")
+}
+
+h1{
+    font-family: one ;
+
+}
+
+p{
+    font-family: one ,'poppins','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

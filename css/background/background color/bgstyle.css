@@ -1,0 +1,17 @@
+*{
+    margin: 15px;
+    padding: 10px;
+   
+}
+
+
+
+.green{
+        background: green ;
+        color: rgb(27, 15, 15);
+}
+.red{
+            background: red;
+            color: white;
+
+}

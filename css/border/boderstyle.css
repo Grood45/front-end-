@@ -1,0 +1,16 @@
+.b1 h1{
+        border: 4px;
+        border-color: red;
+        border-radius: 12px 12px 12px 12px;
+        border-style: solid;
+        margin: 12px;
+        text-align: center;
+}
+
+.b2 h2{
+            border: 4px;
+            border-style: dashed;
+            border-radius: 13px 0 14px 0px;
+            border-color: rgb(251, 255, 0);
+
+}

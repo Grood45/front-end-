@@ -1,0 +1,22 @@
+selector{
+
+	propertes:value;
+	propertes:value;
+}
+
+/*
+ selector is many type
+ 1-Element selctor
+2- id selector (id selster is used by #idname)
+3- class selector(class selster is used by .clasname)
+4- group selector(group selster is used by .0,0,0,0)
+5- universel selector(universal selster is used by *)
+
+propertes = like this color, bgcolor,font,border,etc
+value= its is vule of propertes
+
+
+
+
+
+*/
