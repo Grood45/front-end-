@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Add some styling to the form */
+    form {
+      border: 0px solid #f1f1f1;
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+        padding-top: 245px;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <!-- Add a login form -->
+  <form id="login-form">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" required>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">Login</button>
+  </form>
+  
+  <!-- Add some JavaScript to handle the form submission -->
+  <script>
+    const form = document.getElementById('login-form');
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      
+      // Get the user's input
+      const username = form.elements.username.value;
+      const password = form.elements.password.value;
+      
+      // Perform some validation or send a request to the server
+      if (username === 'admin' && password === 'admin') {
+        alert('Successful login!');
+      } else {
+        alert('Invalid username or password');
+      }
+    });
+  </script>
+</body>
+</html>

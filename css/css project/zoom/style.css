@@ -1,0 +1,33 @@
+*{
+    margin: 35pxpx;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+}
+.hav{
+    width: 250px;
+    height: 150px;
+   
+}
+ .s1{
+    box-sizing: border-box;
+    border: 2px ;
+    width: 150px;
+    height: 250px;
+    padding: 24px 0px;
+    margin : 20px 0px;
+    text-align: center;
+    display: inline-flexbox;
+    cursor: pointer;
+    background-color: rgb(200, 226, 83);
+}
+
+
+.s1:hover{
+    width: 150px;
+    height: 25opx;
+    border: 2px solid red;
+
+    transform: scale(1.24);
+}
+ 
